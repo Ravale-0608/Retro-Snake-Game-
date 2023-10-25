@@ -52,9 +52,7 @@ def get_move(event, x_velocity,y_velocity):
             x_velocity = 0
             
     return (x_velocity,y_velocity)
-    
-    
-    
+
 run = True
 while run:
     for event in pygame.event.get():
